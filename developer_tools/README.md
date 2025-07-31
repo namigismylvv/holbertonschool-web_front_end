@@ -31,7 +31,8 @@ This project focuses on exploring and using browser Developer Tools to analyze a
 ## Repository Structure
 
 holbertonschool-web_front_end/developer_tools/
-  0-responsive_device.png1-change_bg_color.png
+  0-responsive_device.png
+  1-change_bg_color.png
   2-pathways_menu.png
   3-button_styles
   4-new_buttons.png
