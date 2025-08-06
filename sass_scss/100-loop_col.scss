@@ -1,0 +1,7 @@
+// 100-loop_col.scss - generate H* tags with font size using @for
+
+@for $i from 1 through 4{
+    .col-#{$i}{
+        width:calc(100%/$i)
+    }
+}
