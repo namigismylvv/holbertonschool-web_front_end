@@ -1,0 +1,8 @@
+// 12-loop_header.scss - generate H* tags with font size using @for
+
+@for $i from 1 through 5 {
+    h#{$i} {
+      font-size: #{$i}px;
+    }
+  }
+  
