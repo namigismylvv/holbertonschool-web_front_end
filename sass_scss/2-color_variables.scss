@@ -1,0 +1,16 @@
+// 2-color_variable.scss - sets text color and background color using a variable
+$text-color:#3D3D3D;
+$bg-color:#6D6D6D;
+body{
+    color:$text-color;
+}
+p{
+    color:$text-color;
+}
+body{
+    background-color: $bg-color;
+}
+h2{
+    background-color: $bg-color;
+}
+
