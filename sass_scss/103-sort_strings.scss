@@ -1,0 +1,4 @@
+// 103-sort_strings.scss - sort and debug a list of strings
+@use "103-sort_list" as list; 
+
+@debug list.sort($list_to_sort);
