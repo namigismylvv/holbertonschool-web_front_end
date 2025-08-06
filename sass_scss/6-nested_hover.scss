@@ -1,7 +1,7 @@
 // 6-nested_hover.scss - text colors with nested hover for button tags
 button{
     color:#FF0000;
-    :hover{
+    &:hover{
         color:#00FF00;
     }
 }
