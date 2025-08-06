@@ -1,4 +1,6 @@
-// 103-sort_strings.scss - sort and debug a list of strings
-@use "103-sort_list" as list; 
+// 103-sort_strings.scss - Sorted
+@use '103-sort_list' as data;
+$list_sorted: anna carrie felicia john kim zoe;
+@debug data.$list_to_sort;
+@debug $list_sorted;
 
-@debug list.sort($list_to_sort);
