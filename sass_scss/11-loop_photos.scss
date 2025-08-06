@@ -1,0 +1,7 @@
+// 11-loop_photos.scss - create photo classes from list using @use and @each
+@use "11-photos" as photos;
+@each $names in photos.$list-names{
+    .photo-#{$name}{
+        background: image-url('.photos/#${name}.jpg') no-repeat;
+    }
+}
