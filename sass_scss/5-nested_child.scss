@@ -1,0 +1,9 @@
+// 5-nested_child.scss - text colors with nested child selector
+body {
+    color: #3D3D3D;
+  
+    > .red {
+      color: #FF0000;
+    }
+  }
+  
