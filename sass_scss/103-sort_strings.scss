@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import "./103-sort_list.scss";
 $default-sort-order: a b c d e f g h i j k l m n o p q r s t u v w x y z;
 @function str-index($string, $substring) {
@@ -77,4 +76,3 @@ $sorted_list: sort($list_to_sort);
 
 $list_sorted: sort(list.$list_to_sort);
 @debug $list_sorted;
->>>>>>> 42c3598 (initial commit)
