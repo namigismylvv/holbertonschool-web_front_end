@@ -16,10 +16,3 @@ This project contains a series of Sass (Syntactically Awesome Stylesheets) exerc
 ## File Naming Convention
 
 Files are named sequentially (e.g., `0-debug_log.scss`, `12-loop_header.scss`, `100-loop_col.scss`, etc.) to match the corresponding task numbers. Some tasks are located in an `advanced` section and may involve more complex logic like implementing a sort algorithm using loops.
-
-## Usage
-
-You can compile any of the `.scss` files to CSS using the `sass` command:
-
-```bash
-sass filename.scss
