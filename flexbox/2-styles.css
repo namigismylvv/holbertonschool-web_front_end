@@ -333,7 +333,6 @@ a:active {
 
 /* Grid
       ============================= */
-
 .row {
   display: flex;
 }
@@ -342,7 +341,6 @@ ul.row {
   padding: 0;
   list-style: none;
 }
-
 [class*="col-"] {
   padding: 0.5rem;
 }
@@ -524,7 +522,7 @@ ul.row {
   padding: 10rem 40rem 2rem 0;
 }
 /* Section Latest news ============================= */
-.section-latest-news .row{
+.section-latest-news .row {
   flex-direction: row-reverse;
 }
 /*** 4. CARD ***/
