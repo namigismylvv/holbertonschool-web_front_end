@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .box:first-child,
+.box:last-child {
+  width: 70px;
+  height: 50px;
+}
+.container .box:nth-child(even) {
+  width: 90px;
+  height: 65px;
+  font-size: 25px;
+}
+.container .box1 {
+  background-color: limegreen;
+}
+.container .box2 {
+  background-color: cornflowerblue;
+}
+.container .box3 {
+  background-color: darkblue;
+  width: 180px;
+  height: 100px;
+  font-size: 55px;
+}
+.container .box4 {
+  background-color: blueviolet;
+}
+.container .box5 {
+  background-color: orange;
+}
