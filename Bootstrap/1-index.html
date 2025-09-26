@@ -20,19 +20,19 @@
   </head>
   <body>
     <div class="row">
-      <div class="col-lg p-2 text-white text-center bg-primary">Primary</div>
-      <div class="col-lg p-2 text-white text-center bg-success">Success</div>
-      <div class="col-lg p-2 text-white text-center bg-danger">Danger</div>
-      <div class="col-lg p-2 text-white text-center bg-warning">Warning</div>
+      <div class="col-lg-3 p-2 text-white text-center bg-primary">Primary</div>
+      <div class="col-lg-3 p-2 text-white text-center bg-success">Success</div>
+      <div class="col-lg-3 p-2 text-white text-center bg-danger">Danger</div>
+      <div class="col-lg-3 p-2 text-white text-center bg-warning">Warning</div>
     </div>
 
     <hr />
 
     <div class="row">
-      <div class="p-2 col-sm bg-primary text-center text-white">Primary</div>
-      <div class="p-2 col-sm bg-success text-center text-white">Success</div>
-      <div class="p-2 col-sm bg-danger text-center text-white">Danger</div>
-      <div class="p-2 col-sm bg-warning text-center text-white">Warning</div>
+      <div class="p-2 col-sm-3 bg-primary text-center text-white">Primary</div>
+      <div class="p-2 col-sm-3 bg-success text-center text-white">Success</div>
+      <div class="p-2 col-sm-3 bg-danger text-center text-white">Danger</div>
+      <div class="p-2 col-sm-3 bg-warning text-center text-white">Warning</div>
     </div>
 
     <hr />
@@ -46,25 +46,42 @@
     <hr />
 
     <div class="row">
-      <div>Primary</div>
-      <div>Success</div>
-      <div>Danger</div>
-      <div>Warning</div>
+      <div
+        class="col-3 order-xl-1 order-lg-2 order-md-3 order-4 bg-primary p-2 text-center text-white"
+      >
+        Primary
+      </div>
+      <div
+        class="col-3 order-xl-2 order-lg-3 order-md-4 order-1 bg-success p-2 text-center text-white"
+      >
+        Success
+      </div>
+      <div
+        class="col-3 order-xl-3 order-lg-4 order-md-1 order-2 bg-danger p-2 text-center text-white"
+      >
+        Danger
+      </div>
+      <div
+        class="col-3 order-xl-4 order-lg-1 order-md-2 order-3 bg-warning p-2 text-center text-white"
+      >
+        Warning
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="row d-flex justify-content-between">
+      <div class="col-md-2 bg-primary p-2 text-center text-white">Primary</div>
+      <div class="col-md-2 bg-success p-2 text-center text-white">Success</div>
     </div>
 
     <hr />
 
     <div class="row">
-      <div>Primary</div>
-      <div>Success</div>
-    </div>
+  <div class="col-md-2 bg-primary p-2 text-center text-white mr-md-auto">Primary</div>
+  <div class="col-md-2 bg-success p-2 text-center text-white ml-md-auto">Success</div>
+  <div class="col-md-2 bg-danger p-2 text-center text-white ml-md-auto">Danger</div>
+</div>
 
-    <hr />
-
-    <div class="row">
-      <div>Primary</div>
-      <div>Success</div>
-      <div>Danger</div>
-    </div>
   </body>
 </html>
