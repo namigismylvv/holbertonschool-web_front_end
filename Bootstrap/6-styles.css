@@ -1,0 +1,39 @@
+.btn-primary {
+  background-color: #e0003c;
+  border-color: #bc1340;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  border-color: #bc1340;
+  background-color: #bc1340 !important;
+}
+.btn-outline-primary {
+  border-color: #e0003c;
+  color: #e0003c;
+}
+.btn-outline-primary:hover {
+  color: white;
+  background-color: #e0003c;
+  border-color: #e0003c;
+}
+a,
+a:hover,
+a:focus {
+  border-color: #e0003c !important;
+}
+.card,
+.container,
+.card-header,
+.card-footer {
+  border-color: #e0003c;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.card-header {
+  color: white;
+  background-color: #e0003c;
+}
+.text-muted {
+  color: #8c8c8c;
+}
